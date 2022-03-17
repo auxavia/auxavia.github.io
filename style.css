@@ -26,7 +26,7 @@ body {
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 0%;
   background-color: #24252a;
 }
 
@@ -120,51 +120,81 @@ body {
 }
 
 .container .one {
-  background-color: #3f51b5;
-  background-image: url(Resources/Wolflord.webp);
+  background-color: rgb(49, 33, 39);
+  background-image: url(img/azdaha.png);
   background-size: cover;
   background-position: center;
   left: 50%;
 }
 .container .two {
-  background-color: #ff9800;
+  background-color: rgb(73, 149, 253);
   transform: rotate(33deg);
+  background-image: url(img/boreas.png);
+  background-size: cover;
+  background-position: center;
 }
 .container .three {
-  background-color: #e91e63;
+  background-color: rgb(152, 165, 240);
   transform: rotate(66deg);
+  background-image: url(img/childe.png);
+  background-size: cover;
+  background-position: center;
 }
 .container .four {
-  background-color: #4caf50;
+  background-color: rgb(57, 239, 253);
   transform: rotate(99deg);
+  background-image: url(img/magukek.png);
+  background-size: cover;
+  background-position: center;
 }
 .container .five {
-  background-color: #009688;
+  background-color: rgb(253, 255, 170);
   transform: rotate(132deg);
+  background-image: url(img/pma.png);
+  background-size: cover;
+  background-position: center;
 }
 .container .six {
-  background-color: #795548;
+  background-color: rgb(92, 59, 46);
   transform: rotate(165deg);
+  background-image: url(img/primo.png);
+  background-size: cover;
+  background-position: center;
 }
 .container .seven {
-  background-color: #9c27b0;
+  background-color: #1b1e5d;
   transform: rotate(198deg);
+  background-image: url(img/baal.png);
+  background-size: cover;
+  background-position: center;
 }
 .container .eight {
-  background-color: #f44336;
+  background-color: #7865b7;
   transform: rotate(231deg);
+  background-image: url(img/tm.png);
+  background-size: cover;
+  background-position: center;
 }
 .container .nine {
-  background-color: #0088a9;
+  background-color: #2c86a2;
   transform: rotate(264deg);
+  background-image: url(img/batismal.png);
+  background-size: cover;
+  background-position: center;
 }
 .container .ten {
-  background-color: #24252a;
+  background-color: #6a0e18;
   transform: rotate(297deg);
+  background-image: url(img/signora.png);
+  background-size: cover;
+  background-position: center;
 }
 .container .eleven {
-  background-color: #7f849b;
+  background-color: #668a9d;
   transform: rotate(330deg);
+  background-image: url(img/wolf.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .arrow {
