@@ -6,28 +6,32 @@
     <title>Genshin Impact Euls Event</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
   </head>
-  <body>
-    <section class="h1header">
-      <header>
-        <img class="logo" src="img/Logo.jpg" alt="logo" />
-        <nav>
-          <ul class="nav_links">
-            <li><a href="Characters.html">Characters</a></li>
-            <li><a href="SpiralAbyss.html">Spiral Abyss</a></li>
-            <li><a href="Brackets.html">Brackets</a></li>
-          </ul>
-        </nav>
-        <h1 class="text-header">World Boss</h1>
-      </header>
-    </section>
-    <title>Spin Wheel</title>
+   <nav>
+      <div class="navContainer">
+
+        <div class="menu">
+          <a href="Characters.html" class="isActive">Characters</a>
+          <a href="SpiralAbyss.html" >Spiral Abyss</a>
+          <a href="Brackets.html">Brackets</a>
+          <a href="index.html">World Boss</a>
+        </div>
+
+        <button class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
 </head>
 <body>
+
+  <h1 class="worldbossbackground">World Boss</h1>
+
 	<button id="spin">Spin</button>
 	<span class="arrow"></span>
-<div class="container">
+  <div class="container">
 	<div class="one">Azdaha</div>
 	<div class="two">Boreas</div>
 	<div class="three">Childe</div>
@@ -40,16 +44,6 @@
   <div class="ten">Signora</div>
   <div class="eleven">Golden <br> Wolflord</div>
 </div>
-<script>
-  let container = document.querySelector(".container");
-let btn = document.getElementById("spin");
-let number = Math.ceil(Math.random() * 1000);
-
-btn.onclick = function () 
-{
-	container.style.transform = "rotate(" + number + "deg)";
-	number += Math.ceil(Math.random() * 1000);
-}
-</script>
+<script src="main.js"></script>
   </body>
 </html>

@@ -3,24 +3,94 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
+    <title>Character Picking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="style.css"
+    />
+    <script src="main.js" defer></script>
   </head>
-  <body>
-    <section class="h1header">
-      <header>
-        <img class="logo" src="Resources/Logo.jpg_name=small" alt="logo" />
-        <nav>
-          <ul class="nav_links">
-            <li><a href="WorldBoss.html">World Boss</a></li>
-            <li><a href="index.html">Spiral Abyss</a></li>
-            <li><a href="Brackets.html">Brackets</a></li>
-          </ul>
-        </nav>
-        <h1 class="text-header">Characters</h1>
-      </header>
-    </section>
+  <nav>
+    <div class="navContainer">
+      <div class="menu">
+        <a href="Characters.html" class="isActive">Characters</a>
+        <a href="SpiralAbyss.html">Spiral Abyss</a>
+        <a href="Brackets.html">Brackets</a>
+        <a href="index.html">World Boss</a>
+      </div>
+      <button class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="characterdraftingbg">
+    <div class="grid-container pickingcontainer">
+      <div class="charactercontainer transparent">
+      </div>
+      <div class="charactercontainer right-picking-container transparent"></div>
+    </div>
+    <div id="jsCharacterContainer" class="midcharactercontainer middle-container first-middle-container transparent">
+      <img class="draggable icon" draggable="true" src="img/venti.jpg" />
+      <img class="draggable icon" draggable="true" src="img/xiao.jpg" />
+      <img class="draggable icon" draggable="true" src="img/jean.jpg" />
+      <img class="draggable icon" draggable="true" src="img/kazuha.jpg" />
+      <img class="draggable icon" draggable="true" src="img/sucrose.jpg" />
+      <img class="draggable icon" draggable="true" src="img/sayu.jpg" />
+      <img class="draggable icon" draggable="true" src="img/traveller.jpg" />
+      <img class="draggable icon" draggable="true" src="img/zhongli.jpg" />
+      <img class="draggable icon" draggable="true" src="img/itto.jpg" />
+      <img class="draggable icon" draggable="true" src="img/albedo.jpg" />
+      <img class="draggable icon" draggable="true" src="img/yunjin.jpg" />
+      <img class="draggable icon" draggable="true" src="img/gorou.jpg" />
+      <img class="draggable icon" draggable="true" src="img/ningguang.jpg" />
+      <img class="draggable icon" draggable="true" src="img/kokomi.jpg" />
+      <img class="draggable icon" draggable="true" src="img/mona.jpg" />
+      <img class="draggable icon" draggable="true" src="img/childe.jpg" />
+      <img class="draggable icon" draggable="true" src="img/barbara.jpg" />
+      <img class="draggable icon" draggable="true" src="img/xingqiu.jpg" />
+    </div>
+    <div class="midcharactercontainer middle-container second-middle-container transparent">
+      <img class="draggable icon" draggable="true" src="img/raiden.jpg" />
+      <img class="draggable icon" draggable="true" src="img/yae.jpg" />
+      <img class="draggable icon" draggable="true" src="img/keqing.jpg" />
+      <img class="draggable icon" draggable="true" src="img/lisa.jpg" />
+      <img class="draggable icon" draggable="true" src="img/razor.jpg" />
+      <img class="draggable icon" draggable="true" src="img/fishcl.jpg" />
+      <img class="draggable icon" draggable="true" src="img/beidou.jpg" />
+      <img class="draggable icon" draggable="true" src="img/sara.jpg" />
+      <img class="draggable icon" draggable="true" src="img/hutao.jpg" />
+      <img class="draggable icon" draggable="true" src="img/diluc.jpg" />
+      <img class="draggable icon" draggable="true" src="img/klee.jpg" />
+      <img class="draggable icon" draggable="true" src="img/yoimiya.jpg" />
+      <img class="draggable icon" draggable="true" src="img/amber.jpg" />
+      <img class="draggable icon" draggable="true" src="img/bennett.jpg" />
+      <img class="draggable icon" draggable="true" src="img/thoma.jpg" />
+      <img class="draggable icon" draggable="true" src="img/xiangling.jpg" />
+      <img class="draggable icon" draggable="true" src="img/yanfei.jpg" />
+      <img class="draggable icon" draggable="true" src="img/xinyan.jpg" />
+    </div>
+    <div class="midcharactercontainer middle-container third-middle-container transparent">
+      <img class="draggable icon" draggable="true" src="img/eula.jpg" />
+      <img class="draggable icon" draggable="true" src="img/ayaka.jpg" />
+      <img class="draggable icon" draggable="true" src="img/qiqi.jpg" />
+      <img class="draggable icon" draggable="true" src="img/shenhe.jpg" />
+      <img class="draggable icon" draggable="true" src="img/ganyu.jpg" />
+      <img class="draggable icon" draggable="true" src="img/aloy.jpg" />
+      <img class="draggable icon" draggable="true" src="img/kaeya.jpg" />
+      <img class="draggable icon" draggable="true" src="img/chongyun.jpg" />
+      <img class="draggable icon" draggable="true" src="img/diona.jpg" />
+      <img class="draggable icon" draggable="true" src="img/rosaria.jpg" />
+    </div>
+    <div class="grid-container bottom-container">
+      <div class="charactercontainer transparent"></div>
+
+      <div class="charactercontainer right-picking-container transparent"></div>
+    </div>
+  </div>
   </body>
 </html>
