@@ -138,7 +138,7 @@ nav {
 
 h1 {
   padding-top: 5%;
-  color: #fff;
+  color: rgb(203, 252, 252);
   font-size: 28px;
   font-weight: 900;
   text-transform: uppercase;
@@ -384,8 +384,8 @@ body {
   margin-left: 21vh;
 }
 .first-middle-container {
-  width: 80%;
-  margin-left: 17vh;
+  width: 84%;
+  margin-left: 13vh;
   margin-top: 4vh;
 }
 
