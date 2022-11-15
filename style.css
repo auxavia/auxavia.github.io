@@ -308,7 +308,7 @@ body {
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(img/worldbossbg.png);
+    url(img/background2.jpg);
   background-position: left top;
   background-size: cover;
   position: absolute;
@@ -389,19 +389,19 @@ body {
   margin-left: 21vh;
 }
 .first-middle-container {
-  width: 88.3%;
-  margin-left: 8.9vh;
+  width: 88.2%;
+  margin-left: 10vh;
   margin-top: 4vh;
 }
 
 .second-middle-container {
-  width: 80%;
-  margin-left: 17vh;
+  width: 92.7%;
+  margin-left: 6.9vh;
 }
 
 .third-middle-container {
-  width: 45%;
-  margin-left: 50vh;
+  width: 88.2%;
+  margin-left: 10vh;
 }
 
 .bottom-container {
