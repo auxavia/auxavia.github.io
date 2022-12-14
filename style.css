@@ -31,7 +31,7 @@ body {
 :root {
   --primary: #ffffff;
   --light: #ffffff;
-  --dark: hsl(199, 100%, 83%);
+  --dark: hsl(197, 100%, 84%);
 }
 
 * {
@@ -460,5 +460,195 @@ body {
 
 .timertext {
   color: white;
+}
+
+/** TCG **/
+
+.tcgbg {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(img/background4.jpg);
+  background-position: left top;
+  background-size: cover;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  padding-bottom: 100;
+}
+
+.tcgpickingcontainer {
+  margin-top: 10vh;
+}
+
+.tcgcharactercontainer {
+  border: 1px solid black;
+  background-color: rgb(200, 249, 255);
+  padding: 1rem;
+  margin-top: 0rem;
+  width: 300px;
+  display: flex;
+  margin-left: 20vh;
+  height: 180px;
+  border-radius: 30px;
+}
+
+.tcgmidcharactercontainer {
+  border: 1px solid black;
+  background-color: rgb(200, 249, 255);
+  padding: 1rem;
+  margin-top: 0rem;
+  width: 365px;
+  display: flex;
+  margin-left: 20vh;
+  height: 180px;
+  border-radius: 30px;
+}
+
+.tcggrid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 5px;
+  grid-row-gap: 2px;
+  padding: 10px;
+}
+
+.tcgright-picking-container {
+  margin-left: 137vh;
+  position: absolute;
+}
+
+.tcgtop-right-picking-container {
+  margin-left: 80vh;
+}
+
+.tcgmiddle-container {
+  height: 150px;
+  width: 100%;
+  margin-left: 21vh;
+}
+
+.tcgfirst-middle-container {
+  width: 30.5%;
+  margin-left: 65vh;
+  margin-top: 4vh;
+}
+
+.tcgsecond-middle-container {
+  width: 34.0%;
+  margin-left: 62vh;
+}
+
+.tcgthird-middle-container {
+  width: 34.0%;
+  margin-left: 62vh;
+}
+
+.tcgbottom-container {
+  margin-top: 5vh;
+}
+
+.tcgtransparent {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+/** TCG II **/
+
+.tcgbgii {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(img/background5.jpg);
+  background-position: left top;
+  background-size: cover;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  padding-bottom: 100;
+}
+
+.tcgiipickingcontainer {
+  margin-top: 10vh;
+}
+
+.tcgiicharactercontainer {
+  border: 1px solid black;
+  background-color: rgb(200, 249, 255);
+  padding: 1rem;
+  margin-top: 0rem;
+  width: 105.2vh;
+  display: flex;
+  margin-left: 40.5vh;
+  height: 180px;
+  border-radius: 30px;
+}
+
+.tcgiimidcharactercontainer {
+  border: 1px solid black;
+  background-color: rgb(200, 249, 255);
+  padding: 1rem;
+  margin-top: 0rem;
+  width: 365px;
+  display: flex;
+  margin-left: 20vh;
+  height: 180px;
+  border-radius: 30px;
+}
+
+.tcgiigrid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 5px;
+  grid-row-gap: 2px;
+  padding: 10px;
+}
+
+.tcgiiright-picking-container {
+  margin-left: 137vh;
+  position: absolute;
+}
+
+.tcgiitop-right-picking-container {
+  margin-left: 80vh;
+}
+
+.tcgiimiddle-container {
+  height: 150px;
+  width: 77%;
+  margin-left: 21vh;
+}
+.tcgiifirst-middle-container {
+  width: 86.6%;
+  margin-left: 11.5vh;
+  margin-top: 0vh;
+}
+
+.tcgiisecond-middle-container {
+  width: 86.6%;
+  margin-left: 11.5vh;
+}
+
+.tcgiithird-middle-container {
+  width: 86.6%;
+  margin-left: 11.5vh;
+}
+
+.tcgiifourth-middle-container {
+  width: 86.5%;
+  margin-left: 11.5vh;
+}
+
+.tcgiififth-middle-container {
+  width: 76%;
+  margin-left: 21.5vh;
+}
+
+.tcgiibottom-container {
+  margin-top: 5vh;
+}
+
+.tcgiitransparent {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
