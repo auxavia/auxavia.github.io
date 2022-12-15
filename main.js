@@ -60,8 +60,10 @@ function getDragAfterElement(container, y) {
     } else {
       return closest
     }
+    
   }, { offset: Number.NEGATIVE_INFINITY }).element
 }
+
 
 tcgiicontainers.forEach(container => {
   container.addEventListener('dragover', e => {
