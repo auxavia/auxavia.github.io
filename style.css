@@ -467,7 +467,7 @@ body {
 .tcgbg {
   min-height: 100vh;
   width: 100%;
-  background-image: url(img/background4.jpg);
+  background-image: url(img/tcgbackground4.jpg);
   background-position: left top;
   background-size: cover;
   position: absolute;
@@ -557,7 +557,7 @@ body {
 .tcgbgii {
   min-height: 100vh;
   width: 100%;
-  background-image: url(img/background5.jpg);
+  background-image: url(img/tcgbackground5.jpg);
   background-position: left top;
   background-size: cover;
   position: absolute;
