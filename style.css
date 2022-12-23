@@ -307,8 +307,7 @@ body {
 .characterdraftingbg {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(img/background2.jpg);
+  background-image: url(img/background2.jpg);
   background-position: left top;
   background-size: cover;
   position: absolute;
@@ -528,7 +527,7 @@ body {
 }
 
 .tcgfirst-middle-container {
-  width: 34.0%;
+  width: 34%;
   margin-left: 62vh;
   margin-top: 4vh;
 }
