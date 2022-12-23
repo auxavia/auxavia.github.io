@@ -445,7 +445,7 @@ body {
   background: rgb(133, 209, 240);
   color: white;
   height: 30px;
-  border: none;
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 4px;
   float: none;
   display: block; 
@@ -454,10 +454,24 @@ body {
 
 #time {
   font-size: 48px;
-  color: white;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  background: rgb(133, 209, 240, 0.5);
+  border-radius:10px;
 }
 
 .timertext {
+  color: white;
+
+  
+}
+
+button {
+  font-size: 16px;
+  padding: 5px 25px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  background-color: rgb(133, 209, 240);
   color: white;
 }
 
